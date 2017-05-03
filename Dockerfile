@@ -29,9 +29,6 @@ EXPOSE 80
 
 COPY shiny-server.sh /usr/bin/shiny-server.sh
 
-CMD ["/usr/bin/shiny-server.sh"]
-
-
 # Install packages required by my app
 RUN R -e "install.packages(c('devtools','ggplot2','xtable','dplyr','ade4','shiny','DT','ggvis','shinydashboard','FactoMineR','plotly','randomForest','stringr','shinyBS','data.table','plyr'), repos='http://cran.rstudio.com/')"
 
