@@ -1,4 +1,5 @@
 # FIrst Install docker
+# the the shiny app must be in a repo named "src" in the same location of the dockerfile
 
 docker build -t MyShinyAppName .
 
