@@ -1,0 +1,8 @@
+# FIrst Install docker
+
+docker build -t MyShinyAppName .
+
+docker run  -d -p 80:80 -t MyShinyAppName
+
+# Open in a browser :
+http://127.0.0.1/
