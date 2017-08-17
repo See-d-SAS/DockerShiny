@@ -117,4 +117,4 @@ Or, you can pass the **--network=host** to bind your container on the real *127.
 
 ## Authors
 
-- dealer2sarrasin <valentin.lefrancATsee-d.fr>
+- lefranc <valentin.lefrancATsee-d.fr>
